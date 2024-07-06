@@ -44,7 +44,7 @@ header span {
 }
 
 .text-wrapper {
-    max-width: 425px;
+    max-width: 420px;
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -128,7 +128,7 @@ select:hover,
 
 .skills-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
@@ -137,7 +137,6 @@ select:hover,
     display: flex;
     flex-direction: column;
     gap: 20px;
-    order: 2;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -156,7 +155,6 @@ select:hover,
 form {
     margin-bottom: 40px;
     display: flex;
-    order: 1;
     gap: 10px;
 }
 
